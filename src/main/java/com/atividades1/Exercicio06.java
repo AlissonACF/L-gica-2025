@@ -7,14 +7,14 @@ public class Exercicio06 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o primeiro número:");
-        double primeiroNumero = scanner.nextDouble();
+        int primeiroNumero = scanner.nextInt();
 
         System.out.println("Digite o segundo número:");
-        double segundoNumero = scanner.nextDouble();
+        int segundoNumero = scanner.nextInt();
 
-        double soma = primeiroNumero + segundoNumero;
-        double subtracao = primeiroNumero - segundoNumero;
-        double multiplicacao = primeiroNumero * segundoNumero;
+        int soma = primeiroNumero + segundoNumero;
+        int subtracao = primeiroNumero - segundoNumero;
+        int multiplicacao = primeiroNumero * segundoNumero;
         double divisao = primeiroNumero / segundoNumero;
 
         System.out.println("soma: " + soma + " subtração: " + subtracao + " multiplicação: " + multiplicacao + " divisão: " + divisao);

@@ -7,20 +7,20 @@ public class Exercicio09 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a quantia de dias que deseja converter:");
-        double dias = scanner.nextDouble();
+        int dias = scanner.nextInt();
 
         System.out.println("Digite a quantia de horas que deseja converter:");
-        double horas = scanner.nextDouble();
+        int horas = scanner.nextInt();
 
         System.out.println("Digite a quantia de minutos que deseja converter:");
-        double minutos = scanner.nextDouble();
+        int minutos = scanner.nextInt();
 
         System.out.println("Digite a quantia de segundos que deseja converter:");
-        double segundos = scanner.nextDouble();
+        int segundos = scanner.nextInt();
 
-        double diasHoras = dias * 24 * 60 * 60;
-        double horasMinutos = horas * 60 * 60;
-        double minutosSegundos = minutos * 60;
+        int diasHoras = dias * 24 * 60 * 60;
+        int horasMinutos = horas * 60 * 60;
+        int minutosSegundos = minutos * 60;
 
         System.out.println("O resultado da conversão é: " + (diasHoras + horasMinutos + minutosSegundos + segundos));
 

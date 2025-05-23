@@ -6,11 +6,11 @@ public class Exercicio08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite o valor de B:");
-        double valorB = scanner.nextDouble();
-
-        System.out.println("Agora digite o valor de A:");
+        System.out.println("Digite o valor de A:");
         double valorA = scanner.nextDouble();
+
+        System.out.println("Agora digite o valor de B:");
+        double valorB = scanner.nextDouble();
 
         System.out.println("Agora digite o valor de C:");
         double valorC = scanner.nextDouble();
