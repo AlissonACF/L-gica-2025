@@ -13,13 +13,13 @@ public class Exercicio14 {
 
         if ((numero1 == 0) || (numero2 == 0)) {
             System.out.println("Z");
-        } else if ((numero1 >= 0) && (numero2 >= 0)) {
+        } else if ((numero1 > 0) && (numero2 > 0)) {
             System.out.println("M");
         } else if ((numero1 < 0) && (numero2 < 0)) {
             System.out.println("M");
-        } else if ((numero1 >= 0) && (numero2 < 0)) {
+        } else if ((numero1 > 0) && (numero2 < 0)) {
             System.out.println("O");
-        } else if ((numero2 >= 0) && (numero1 < 0)) {
+        } else if ((numero2 > 0) && (numero1 < 0)) {
             System.out.println("O");
 
         }
