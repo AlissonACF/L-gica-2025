@@ -9,9 +9,7 @@ public class Exercicio01 {
         System.out.println("Digite qualquer mês do ano (em números)");
         int mesNumero = scanner.nextInt();
 
-        int mes = 0;
-
-        switch (mes) {
+        switch (mesNumero) {
             case 1:
                 System.out.println("Janeiro");
                 break;
@@ -48,6 +46,11 @@ public class Exercicio01 {
             case 12:
                 System.out.println("Dezembro");
                 break;
+            default:
+                System.out.println("Erro! Mês inexistente.");
+                break;
         }
     }
 }
+
+
