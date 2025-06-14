@@ -27,7 +27,11 @@ public class Exercicio03 {
                     System.out.println(valorA + " > " + valorB);
                 }
             case 4:
-                System.out.println(valorA - valorB);
+                if (valorA > valorB) {
+                    System.out.println("A diferença é: " + (valorA - valorB));
+                }else {
+                    System.out.println("A diferença é: " + (valorB - valorA));
+                }
                 break;
             case 5:
                 System.out.println((valorA + valorB) /2);
