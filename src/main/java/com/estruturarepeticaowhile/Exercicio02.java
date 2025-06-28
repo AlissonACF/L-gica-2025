@@ -19,8 +19,7 @@ public class Exercicio02 {
             System.out.println("Digite S para sair.");
             sair = scanner.next();
         }
-        double media = (double) totalNumero / quantiaNumeros;
+        double media = totalNumero / quantiaNumeros;
         System.out.println("A média é: " + media);
     }
 }
-
